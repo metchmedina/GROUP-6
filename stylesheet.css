@@ -1,0 +1,375 @@
+                                /*- INDEX PAGE -*/	
+#neubar {
+        background: #fae8d2;
+        box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+}
+ 
+.nav-item .active {
+         border-radius: 6px;
+         background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+         box-shadow:  4px 4px 8px #ddc1a0,
+                   -4px -4px 8px #f7e5cc;
+}
+
+#neubar .nav-item {
+          margin : auto 4px;
+}
+#neubar a {
+ 
+        padding-left:12px;
+        padding-right:12px;
+}
+a.navbar-brand {
+        color: #454545
+}
+
+.logo {
+        margin: -18px;
+        margin-right: -20px;
+}
+
+.Quote {
+	color: rgb(255, 251, 0);
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	font-size: 5rem;
+	text-shadow: 20px 20px 25px #000;
+}
+
+.text-center {
+        padding-top: 15px;
+        padding-left: 15px;
+        font-size: 15px;
+        background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+}
+
+.fb {
+        width: 45px;
+        border-radius: 35px;
+        box-shadow:  3px 3px 8px #000000;
+}
+.fb:hover {
+        width: 40px;
+}
+
+.insta {
+        width: 45px;
+        margin-left: 30px;
+        box-shadow:  3px 3px 8px #000000;
+        border-radius: 35px;
+}
+.insta:hover {
+        width: 40px;
+}
+
+.QR {
+        margin-left: 50px;
+}
+
+                                /*- RESTAURANT PAGE -*/
+
+.ResBody {
+        background-image: url(Restaurant-Background.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+}
+
+
+.a1 {
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+        margin-left: 100px;
+        margin-top: 50px;
+        padding-left: 37px;
+}
+
+.wrap1 {
+	width: auto;
+	margin: auto;
+        margin-left: 6%;
+	margin-top: 30px;
+        justify-content: center;
+}
+
+.card1 {
+	box-shadow:0 20px 25px 0 rgb(0, 0, 0, 0.6);
+	transition: .4s;
+	width: 23%;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+	margin: 10px;
+        justify-content: center;
+        margin-left: 70px;
+}
+
+.card1:hover {
+	box-shadow: 0 8px 20px 0 rgb(0, 0, 0, 0.6);
+}
+
+.container1 {
+	padding: 2px 16px;
+}
+
+
+
+                                /* ABOUT US PAGE */
+.Ab-Body {
+        background-image: url(About-BG.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+
+
+.wrap {
+	width: auto;
+        height: auto;
+        margin-left: 3.7%;
+        margin-right: 100px;
+	margin-top: 8%;
+        justify-content: center;
+}
+
+.card {
+	box-shadow:0 30px 25px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 25%;
+        height: auto;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: sans-serif;
+        justify-content: center;
+	float: left;
+	margin: 45px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+}
+
+.container {
+	padding: 2px 16px;
+}
+
+                                /* LUZON - VISAYAS - MINDANAO */
+
+
+.Res {
+       width: 25%;
+       height: auto;
+       border-radius: 100px;
+       background-color: rgb(187, 0, 0);
+       margin-left: 38%;
+       margin-top: 3%;
+       margin-bottom: 4%;
+       padding:  2px 6px;
+       justify-content: center;
+       box-shadow: 0 8px 16px  rgba(250, 11, 11, 0.6);
+}
+
+.wraps {
+	width: auto;
+	margin: auto;
+        margin-left: 5%;
+        margin-top: 5px;
+        justify-content: center;
+}
+
+.cards {
+	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 17%;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+        justify-content: center;
+	margin: 10px;
+        margin-left: 4.5%;
+        margin-right: 20px;
+        margin-bottom: 80px;
+}
+
+.cards:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+}
+
+.containers {
+	padding: 2px 16px;
+}
+
+
+                                /* LR1 */
+.main-pic {
+        margin-top: 2%;
+}
+.LR1 {
+	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 45%;
+        height: auto;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+	margin: 10px;
+        margin-left: 5.5%;
+        margin-right: 20px;
+        margin-bottom: 80px;
+}
+.LR1:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+}
+.containers {
+	padding: 2px 16px;
+}
+
+/*---------------*/
+
+.sub-pic1 {
+        margin-top: 2%;
+}
+.sub-pics1 {
+        width: 35%;
+        height: auto;
+        margin-left: 5%;
+        margin-top: 30%;
+}
+.sub-pics1 {
+	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 20%;
+        height: auto;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+	margin: 10px;
+        margin-left: 76%;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        position: absolute;
+}
+.sub-pics1:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+}
+.containers {
+	padding: 2px 16px;
+}
+
+/*---------------*/
+
+.sub-pic2 {
+        margin-top: 2%;
+}
+.sub-pics2 {
+        width: 35%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 10%;
+}
+.sub-pics2 {
+	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 20%;
+        height: auto;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+	margin: 10px;
+        margin-left: 53%;
+        margin-right: 20px;
+        position: absolute;
+}
+.sub-pics2:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+}
+
+/*---------------*/
+
+.sub-pic3 {
+        margin-top: 20%;
+}
+.sub-pics3 {
+        width: 35%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 30%;
+}
+.sub-pics3 {
+	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 20%;
+        height: auto;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+	margin: 10px;
+        margin-left: 53%;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        position: absolute;
+}
+.sub-pics3:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+}
+
+/*---------------*/
+
+.sub-pic4 {
+        margin-top: 20%;
+}
+.sub-pics4 {
+        width: 35%;
+        height: auto;
+        margin-left: 10%;
+        margin-top: 10px;
+}
+.sub-pics4 {
+	box-shadow:0 4px 10px 0 rgb(0, 0, 0, 0.6);
+	transition: 0.4s;
+	width: 20%;
+        height: auto;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Verdana, sans-serif';
+	float: left;
+	margin: 10px;
+        margin-left: 76%;
+        margin-right: 20px;
+        margin-bottom: 80px;
+        position: absolute;
+}
+.sub-pics4:hover {
+	box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+}
+
+.Restaurant-About {
+        background-color:  rgba(255, 90, 90, 0.877);
+        padding-left: 5px;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 75px;
+}
+
+.NameR {
+	font-family: Arial, sans-serif;
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.6);
+        margin-top: 35px;
+}
